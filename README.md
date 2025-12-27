@@ -1,16 +1,46 @@
-# React + Vite
+🧑‍🤝‍🧑 Collaborative Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple frontend-only task manager built using React.js and Tailwind CSS.
+This project demonstrates authentication, role-based access, and task assignment without using a backend.
 
-Currently, two official plugins are available:
+  🔧 Tech Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React.js
+Tailwind CSS
+Context API
+LocalStorage
 
-## React Compiler
+   ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-Login as Manager or User
+-Manager can create tasks for users
+-Users can view assigned tasks
+-Dark mode support
+-No backend (frontend only)
 
-## Expanding the ESLint configuration
+How to Run 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+NPM Install
+Npm run dev
+
+🧪 Test Flow
+
+Login as Manager
+Create a task for user
+Logout
+Login as User
+View assigned task
+
+📁 Folder Structure
+
+src/
+ ├─ components/
+ ├─ context/
+ ├─ pages/
+ ├─ App.jsx
+ └─ main.jsx
+
+ <img width="1920" height="1080" alt="Screenshot 2025-12-27 125055" src="https://github.com/user-attachments/assets/76977688-79a6-4088-9784-df195b714b83" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-27 125042" src="https://github.com/user-attachments/assets/825fa6d7-8040-4080-8ffd-b73bb0579597" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-27 125030" src="https://github.com/user-attachments/assets/a7ef605d-2d1a-4aaa-9775-6955fdda5423" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-27 125001" src="https://github.com/user-attachments/assets/7b88afbe-6251-46db-968a-ea8957ea77d2" />
